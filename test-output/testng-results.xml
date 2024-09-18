@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T11:12:04 IST" name="Suite" finished-at="2024-09-18T11:12:15 IST" duration-ms="11129">
+    <groups>
+    </groups>
+    <test started-at="2024-09-18T11:12:04 IST" name="Test" finished-at="2024-09-18T11:12:15 IST" duration-ms="11129">
+      <class name="cA_Ecom_Project.TC01_Login">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:03 IST" name="StartReport" finished-at="2024-09-18T11:12:04 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="loaduserdata()[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:04 IST" name="loaduserdata" finished-at="2024-09-18T11:12:04 IST" depends-on-methods="Utils.Reporter.StartReport" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loaduserdata -->
+        <test-method is-config="true" signature="setvalues()[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:04 IST" name="setvalues" finished-at="2024-09-18T11:12:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvalues -->
+        <test-method is-config="true" signature="report()[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:04 IST" name="report" finished-at="2024-09-18T11:12:04 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:04 IST" name="Setup" finished-at="2024-09-18T11:12:07 IST" duration-ms="3639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginapp(java.lang.String)[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:08 IST" name="loginapp" data-provider="fetchData" finished-at="2024-09-18T11:12:14 IST" duration-ms="6288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cucumber]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginapp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:14 IST" name="teardown" finished-at="2024-09-18T11:12:15 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:15 IST" name="stopReport" finished-at="2024-09-18T11:12:17 IST" depends-on-methods="Base.ProjectSpecifMethods.unloaduserdata" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+        <test-method is-config="true" signature="unloaduserdata()[pri:0, instance:cA_Ecom_Project.TC01_Login@50caa560]" started-at="2024-09-18T11:12:15 IST" name="unloaduserdata" finished-at="2024-09-18T11:12:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unloaduserdata -->
+      </class> <!-- cA_Ecom_Project.TC01_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
